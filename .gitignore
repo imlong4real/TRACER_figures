@@ -1,0 +1,41 @@
+# Generated figures and reports
+*.png
+*.pdf
+*.svg
+*.html
+*.log
+*.out
+*.err
+
+# Data and intermediate analysis products
+*.h5
+*.h5ad
+*.loom
+*.parquet
+*.feather
+*.arrow
+*.zarr/
+*.npy
+*.npz
+*.rds
+*.RData
+*.csv
+*.tsv
+objects/
+outputs/
+tables/
+results/
+logs/
+
+# Runtime state
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.Rhistory
+.Rproj.user/
+.venv/
+venv/
+env/
+tmp/
+temp/
+slurm-*.out
